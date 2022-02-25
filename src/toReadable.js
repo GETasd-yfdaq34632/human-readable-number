@@ -5,5 +5,3 @@ function toReadable (number) {
     
     return numberInWords
   }
-
-console.log(toReadable(327))
