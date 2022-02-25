@@ -1,4 +1,4 @@
-module.exports = function toReadable (number) {
+function toReadable (number) {
   const numWords = require('num-words')
   
   const numberInWords = numWords(number)
